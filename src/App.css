@@ -5,7 +5,7 @@
 body {
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,14 @@ body {
   width: 90vw;
   height: 95vh;
   display: grid;
-  grid-template-rows: 15% 17% 68%;
+  grid-template-rows: 12% 17% 72%;
   overflow: hidden;
+}
+@media screen and (max-width: 576px) {
+  .grid-container {
+    width: 97vw;
+    height: 95dvh;
+  }
 }
 
 #row-container {
