@@ -31,7 +31,7 @@ function App() {
   function FilterBySearchAndCollection() {
 
     let myArray: data[] = []
-    const myData = [...temp];
+    const myData = [...per];
 
     if (searchText === '' || !searchText) {
       return per.length > 0 && dispatch(setListData_temp(per))
@@ -56,6 +56,7 @@ function App() {
         })
         break;
       case 'meli':
+        console.log('meliiii');
         myData.map((x, y) => {
           if (x.meli.toString().includes(searchText)) myArray.push(x)
         })
