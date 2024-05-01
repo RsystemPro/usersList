@@ -1,0 +1,13 @@
+.myChart {
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.myChart .myChart_canvas {
+  width: 100%;
+  height: 400px;
+}

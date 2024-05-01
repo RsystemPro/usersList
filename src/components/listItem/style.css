@@ -1,0 +1,30 @@
+.SimpleButton {
+  border: 2px solid #24b4fb;
+  background-color: #24b4fb;
+  border-radius: 0.9em;
+  padding: 0.3em 1em;
+  transition: all ease-in-out 0.2s;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.SimpleButton:hover {
+  background-color: #0071e2;
+}
+
+.list_item_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.list_item_actions svg {
+  transition: all 0.2s;
+  width: 25px;
+}
+.list_item_actions svg:hover {
+  transform: scale(1.07);
+}

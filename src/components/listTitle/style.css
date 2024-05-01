@@ -1,0 +1,45 @@
+.list_title_arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list_title_arrow svg {
+  width: 30px;
+  pointer-events: none;
+}
+
+.list_title_tr {
+  width: 100%;
+}
+.list_title_tr:hover {
+  background-color: unset;
+}
+.list_title_tr th {
+  user-select: none;
+  font-weight: bolder;
+  white-space: nowrap;
+  transition: all 0.2s;
+  background-color: pink;
+}
+.list_title_tr th:hover {
+  background-color: rgb(254, 178, 191);
+}
+.list_title_tr th:nth-of-type(1) {
+  width: 5%;
+}
+.list_title_tr th:nth-of-type(2) {
+  width: 15%;
+}
+.list_title_tr th:nth-of-type(3) {
+  width: 25%;
+}
+.list_title_tr th:nth-of-type(4) {
+  width: 20%;
+}
+.list_title_tr th:nth-of-type(5) {
+  width: 20%;
+}
+.list_title_tr th:nth-of-type(6) {
+  width: 15%;
+}

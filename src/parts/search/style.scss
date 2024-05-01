@@ -1,0 +1,45 @@
+@import '../../styles/colors';
+
+.search {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    // justify-content: space-between;
+    align-items: center;
+    margin: $item_gap;
+
+    // @include Item;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+    box-shadow: $item_shadow;
+}
+
+.search_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    h5 {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: start;
+    }
+}
+
+.search_sub_s {
+    flex: 1 1 370px;
+}
+
+.search_sub_d {
+    flex-basis: 150px;
+}
+
+.search_sub_b {
+    justify-content: end;
+    flex-shrink: 1;
+    height: 100%;
+}

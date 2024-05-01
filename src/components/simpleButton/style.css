@@ -1,0 +1,33 @@
+.SimpleButton {
+  border-radius: 0.9em;
+  padding: 0.3em 1em;
+  transition: all ease-in-out 0.2s;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.SimpleButton_gray {
+  border: 2px solid gray;
+  background-color: #6B7280;
+}
+.SimpleButton_gray:hover {
+  background-color: #4B5563;
+}
+
+.SimpleButton_cyan {
+  border: 2px solid #24b4fb;
+  background-color: #24b4fb;
+}
+.SimpleButton_cyan:hover {
+  background-color: #0071e2;
+}
+
+.SimpleButton_red {
+  border: 2px solid #C81E1E;
+  background-color: #E02424;
+}
+.SimpleButton_red:hover {
+  background-color: #9B1C1C;
+}

@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+.MyMap {
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    // width: 100%;
+    // height: 100%;
+    gap: .5rem;
+
+}

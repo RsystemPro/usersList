@@ -1,0 +1,19 @@
+.removeItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.removeItem svg {
+  width: 80px;
+}
+
+.removeItem_buttons {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}

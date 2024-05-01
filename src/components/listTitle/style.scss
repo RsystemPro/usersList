@@ -1,0 +1,62 @@
+@import '../../styles/colors';
+
+.list_title_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 30px;
+        pointer-events: none;
+    }
+}
+
+.list_title_th {
+    // background-color: red;
+}
+
+.list_title_tr {
+
+    width: 100%;
+
+    &:hover {
+        background-color: unset;
+    }
+
+    th {
+        user-select: none;
+        font-weight: bolder;
+        white-space: nowrap;
+        transition: all .2s;
+        background-color: $table_title_bg;
+
+        &:hover {
+            background-color: $table_title_hover_bg;
+        }
+    }
+
+    th:nth-of-type(1) {
+        width: 5%;
+    }
+
+    th:nth-of-type(2) {
+        width: 15%;
+    }
+
+    th:nth-of-type(3) {
+        width: 25%;
+    }
+
+    th:nth-of-type(4) {
+        width: 20%;
+    }
+
+    th:nth-of-type(5) {
+        width: 20%;
+    }
+
+    th:nth-of-type(6) {
+        width: 15%;
+    }
+}

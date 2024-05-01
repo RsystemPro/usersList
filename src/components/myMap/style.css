@@ -1,0 +1,11 @@
+.MyMap {
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+  gap: 0.5rem;
+}

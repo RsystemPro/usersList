@@ -1,0 +1,38 @@
+@import '../../styles/colors';
+
+.SimpleButton {
+    border-radius: 0.9em;
+    padding: .3em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+
+.SimpleButton_gray {
+    border: 2px solid gray;
+    background-color: #6B7280;
+
+    &:hover{
+        background-color: #4B5563;
+    }
+}
+
+.SimpleButton_cyan {
+    border: 2px solid $button;
+    background-color: $button;
+
+    &:hover{
+        background-color: $hover_button;
+    }
+}
+
+.SimpleButton_red {
+    border: 2px solid #C81E1E;
+    background-color: #E02424;
+
+    &:hover{
+        background-color: #9B1C1C;
+    }
+}

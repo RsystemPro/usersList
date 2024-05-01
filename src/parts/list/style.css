@@ -1,0 +1,52 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  margin: 8px;
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+.table-scroll {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.table_title {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+tr {
+  transition: all 0.2s;
+  border-bottom: 1px solid black;
+  height: 30px;
+  cursor: pointer;
+}
+tr:hover {
+  background-color: rgb(238, 236, 236);
+}
+
+td {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.table_title th {
+  position: sticky;
+  top: 0px;
+}
