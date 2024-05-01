@@ -35,7 +35,7 @@ function MyMap({ location, getDataMode }: props) {
             lat: userData?.location.latitude || 31.148912418120513,
             lng: userData?.location.longitude || 52.957843664170326
         },
-        zoom: getDataMode? 5 : 11
+        zoom: getDataMode ? 5 : 11
     };
 
     return (

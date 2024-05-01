@@ -6,6 +6,12 @@
   justify-content: center;
   align-items: center;
   width: 70vw;
-  height: 70vh;
+  height: 80vh;
   gap: 0.5rem;
+}
+@media screen and (max-width: 576px) {
+  .MyMap {
+    width: 90vw;
+    height: 90vh;
+  }
 }

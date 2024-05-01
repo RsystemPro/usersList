@@ -1,4 +1,5 @@
 @import '../../styles/colors';
+@import '../../styles/templates';
 
 .MyMap {
     padding-inline: 1rem;
@@ -8,9 +9,14 @@
     justify-content: center;
     align-items: center;
     width: 70vw;
-    height: 70vh;
+    height: 80vh;
     // width: 100%;
     // height: 100%;
     gap: .5rem;
+
+    @include Mobile {
+        width: 90vw;
+        height: 90vh;
+    }
 
 }
